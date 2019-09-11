@@ -1,0 +1,33 @@
+adcionar bibliotecas
+
+inicio do metodo main
+	//criando variaveis para os dados de entrada
+	criar a variavel "cod_filial"
+	criar a variavel "mes_1" = 0
+	criar a variavel "mes_2" = 0
+	criar a variavel "mes_3" = 0
+	criar a variavel "total_filial" = 0
+	criar a variavel "total_empresa" = 0
+
+	//obtendo dados de entrada
+	imprimir o texto "Seu Restaurante Vegetariano"
+	solicitar codigo da filial e adcionar o valor digitado a variavel "cod_filial"
+
+	enquanto "cod_filial" <> 0
+		solicitar o valor do mes 1 e adcionar o valor digitado a variavel "mes_1"
+		solicitar o valor do mes 2 e adcionar o valor digitado a variavel "mes_2"
+		solicitar o valor do mes 3 e adcionar o valor digitado a variavel "mes_3"
+		
+		//calculando o valor "total_filial"
+		"total_filial" = "mes_1" + "mes_2" + "mes_3"
+		imprimir o valor "total_filial"
+		imprimir "=============================="
+
+		//calculando o valor "total_empresa"
+		"total_empresa" = "total_empresa" + "total_filial"
+		imprimir valor "total_empresa"
+		
+		solicitar codigo da filial e adcionar o valor digitado a variavel "cod_filial"
+	fim enquanto
+
+fim do metodo main
